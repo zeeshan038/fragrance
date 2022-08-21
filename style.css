@@ -1,0 +1,508 @@
+*a {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1.4rem 6rem;
+}
+.main-logo {
+  cursor: pointer;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 5rem;
+}
+li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  padding: 0px 1.4rem;
+  color: black;
+  font-size: 1.1rem;
+}
+li a:hover {
+  color: red;
+}
+.search {
+  position: absolute;
+  right: 9.4rem;
+}
+.Search-here {
+  font-size: 15px;
+  border: 1px solid rgb(236, 233, 233);
+  border-radius: 15px;
+  padding: 0px 0px;
+  transition: width 0.3s ease-in;
+  height: 50px;
+  width: 50px;
+}
+.fa-magnifying-glass {
+  cursor: pointer;
+
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  height: 50px;
+  width: 50px;
+}
+.Search-here:focus,
+.fa-magnifying-glass:focus {
+  outline: none;
+}
+.search.active .Search-here {
+  width: 200px;
+}
+.search.active .fa-magnifying-glass {
+  transform: translate(-40px);
+}
+.fa-bars {
+  font-size: 4rem;
+  display: none;
+}
+
+.fa-bag-shopping {
+  font-size: 1.3rem;
+  padding: 0px 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 7rem;
+}
+.fa-bag-shopping:hover {
+  color: rgb(155, 2, 2);
+}
+.cart {
+  position: absolute;
+  top: 127px;
+  right: 40px;
+  left: 1100px;
+  background-color: #fff;
+  bottom: 200px;
+  transform: translateY(-1000px);
+  transition: all 0.6s ease-in-out;
+  z-index: 1;
+}
+
+.show-cart {
+  transform: translateY(0px);
+}
+.close-cart {
+  position: absolute;
+  left: 4px;
+  top: 21px;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.cart-details {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}
+.cart-details h3 {
+  padding: 0px 2.4rem;
+}
+.total {
+  position: absolute;
+  bottom: 4rem;
+  right: 3rem;
+}
+.cart-items {
+  cursor: pointer;
+}
+.cart-row {
+  display: flex;
+  align-items: center;
+}
+.cart-row img {
+  height: 90px;
+}
+.cart-row h6 {
+  font-size: 1rem;
+}
+
+.quantity input {
+  border: 2px solid black;
+  padding: 0px;
+}
+.quantity {
+  padding: 0px 3%;
+}
+
+.item-price {
+  padding: 0px 5%;
+}
+.Remove {
+  background-color: rgb(155, 2, 2);
+  color: white;
+  padding: 6px;
+  cursor: pointer;
+}
+.main-heading {
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+}
+.Check-out {
+  position: absolute;
+  bottom: 1rem;
+  left: 6rem;
+  padding: 8px 36px;
+  cursor: pointer;
+  background-color: rgb(155, 2, 2);
+  color: white;
+  border: none;
+}
+.add-to-cart {
+  display: block;
+  position: absolute;
+  bottom: 11rem;
+  opacity: 0;
+  transition: all 0.8s ease-in-out;
+}
+.add-to-cart button {
+  border: none;
+
+  background-color: transparent;
+}
+.add-to-cart a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+.add-to-cart a:hover {
+  color: red;
+}
+.add-to-cart:hover {
+  opacity: 1;
+}
+.Account-login {
+  position: absolute;
+  right: 4rem;
+  cursor: pointer;
+}
+.Account-login:hover {
+  color: rgb(155, 2, 2);
+}
+.Account-login a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: black;
+}
+.Account-login a:hover {
+  color: rgb(155, 2, 2);
+}
+#Account {
+  text-align: center;
+  margin: 40px 0px;
+}
+.banner {
+  background-color: #f6f6f6;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner a {
+  text-decoration: none;
+  color: black;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #f6f6f6; */
+  height: 450px;
+  margin-top: 6rem;
+  /* margin-right: 25rem;
+  margin-left: 25rem; */
+}
+.login-text {
+  line-height: 8px;
+}
+h2 {
+  font-size: 2rem;
+  color: black;
+  letter-spacing: 1px;
+}
+p {
+  font-size: 1.2rem;
+}
+#email {
+  margin: 14px 0px;
+}
+
+input {
+  padding: 9px 80px;
+  border: none;
+  border-radius: 6px;
+}
+.sign_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.sign-in {
+  margin-right: 140px;
+  padding: 8px 22px;
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  transition: all 0.4s;
+}
+.sign-in:hover {
+  background-color: rgb(155, 2, 2);
+}
+.forgot-password {
+  cursor: pointer;
+}
+.create-account a {
+  color: black;
+  text-decoration: none;
+  margin-right: 19rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.return-to-store a {
+  color: black;
+  text-decoration: none;
+}
+/* // Hero Section  */
+#hero {
+  background-color: rgb(206, 229, 236);
+  height: 700px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.hero-content {
+  padding-top: 10rem;
+  padding-left: 7rem;
+}
+
+.main-text {
+  font-size: 10vh;
+  letter-spacing: 9px;
+  animation: moveToLeft 2s ease-in-out;
+  animation-delay: 0.5s;
+  transition: all 2s ease-in-out;
+}
+@keyframes moveToLeft {
+  0% {
+    transform: translate(30%);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+.para-text {
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  animation: moveToLeft 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  animation-delay: 0.5s;
+}
+
+.hero-image {
+  position: absolute;
+  top: 7rem;
+  right: 9rem;
+  height: 623px;
+  animation: moveToLeft 2s ease-in-out;
+  transition: all 2s ease-in-out;
+  animation-delay: 0.5s;
+}
+.shop-Now {
+  padding: 9px 16px;
+  background-color: transparent;
+  cursor: pointer;
+  animation: moveToLeft 2s ease-in-out;
+
+  animation-delay: 0.5s;
+}
+.shop-Now a {
+  text-decoration: none;
+  color: black;
+}
+.shop-Now:hover {
+  background-color: rgb(235, 45, 45);
+}
+/* Banner  */
+#Banner {
+  margin: 87px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Banner-image {
+  margin: 0px 15px;
+  cursor: pointer;
+
+  transition: all 0.5s ease 0s;
+}
+.Banner-image:hover {
+  transform: scale(1.1);
+}
+#products {
+  margin-top: 9rem;
+}
+.product-content {
+  text-align: center;
+}
+.product-content h1 {
+  font-size: 2.4rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.product-content p {
+  opacity: 0.8;
+  font-size: 1.3rem;
+}
+.product-btn {
+  background-color: transparent;
+  padding: 10px 20px;
+  margin: 0px 4px;
+}
+.product-btn a {
+  text-decoration: none;
+  color: black;
+}
+.hero-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  white-space: nowrap;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.hero-products-1 {
+  margin: 0px 5px;
+  text-align: center;
+}
+.hero-products-1 img {
+  /* background-color: rgb(129, 112, 112); */
+
+  background-color: pink;
+  cursor: pointer;
+  height: 370px;
+  box-shadow: 10px, 0, 0, 1, black;
+}
+.rattings {
+  text-align: center;
+  background-color: rgb(116, 104, 104);
+}
+
+.fa-star-half {
+  color: rgb(182, 182, 0);
+}
+#big-banner {
+  margin: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-banner {
+  height: 300px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.main-banner:hover {
+  transform: scale(1.06);
+}
+#testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(223, 235, 235);
+  height: 300px;
+  margin: 0px 3rem;
+  border-radius: 10px;
+}
+#testimonial img {
+  height: 100px;
+}
+#testimonial p {
+  opacity: 0.7;
+  letter-spacing: 2px;
+  line-height: 29px;
+}
+#testimonial h4 {
+  opacity: 0.7;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+#brand {
+  margin: 6rem 10rem;
+}
+.brand-row img {
+  padding: 0px 43px;
+  cursor: pointer;
+}
+#blog {
+}
+.blog-content {
+  text-align: center;
+}
+.blog-content h1 {
+  font-size: 2rem;
+}
+.blog-content p {
+  opacity: 0.8;
+}
+.blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.blogs p {
+  font-size: 1.4rem;
+}
+.blog1 img {
+  height: 250px;
+  padding: 0 2rem;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out;
+}
+.blog2 img {
+  height: 250px;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+}
+
+.blog2 img:hover {
+  transform: scale(1.1);
+}
+.blog1 img:hover {
+  transform: scale(1.1);
+}
+#footer {
+  background-color: rgb(227, 234, 236);
+  height: 70px;
+  margin-top: 4rem;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer-content a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.cards-accepted img {
+  cursor: pointer;
+}

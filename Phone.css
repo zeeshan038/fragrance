@@ -1,0 +1,167 @@
+/* @media (max-width: 2660px) {
+  /* .cart {
+    left: 1700px;
+  } */
+/* .cart-row {
+    padding: 20px;
+  }
+  .item-price {
+    padding: 0px 3%;
+    font-size: 2rem;
+  }
+  .cart-row img {
+    height: 130px;
+  }
+  .cart-row h6 {
+    font-size: 2rem;
+  }
+  .cart-details h3 {
+    padding: 0px 5rem;
+  }
+  .Remove {
+    padding: 11px;
+  } */
+
+@media (max-width: 1398px) {
+  .Banner-image {
+    margin: 0px 1px;
+  }
+}
+
+@media (max-width: 1388px) {
+  .hero-image {
+    top: 12rem;
+    right: 7rem;
+    height: 585px;
+  }
+}
+@media (max-width: 1288px) {
+  .hero-image {
+    top: 13rem;
+    right: 4rem;
+    height: 530px;
+  }
+  .main-text {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 1137px) {
+  ul {
+    margin: 30px 3rem;
+  }
+  li a {
+    padding: 0px 1rem;
+  }
+  .hero-image {
+    top: 14rem;
+    right: 2.8rem;
+    height: 500px;
+  }
+  .main-text {
+    font-size: 2.4rem;
+  }
+
+  .para-text {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+  }
+}
+@media (max-width: 1036px) {
+  ul {
+    margin: 30px 1rem;
+  }
+  li a {
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .hero-image {
+    top: 15rem;
+    right: 2rem;
+    height: 470px;
+    left: 34rem;
+  }
+  .hero-content {
+    padding-left: 3rem;
+  }
+}
+@media (max-width: 993px) {
+  .hero-image {
+    top: 15rem;
+    right: -2rem;
+    height: 450px;
+    left: 29rem;
+  }
+  .main-text {
+    font-size: 2rem;
+  }
+
+  .para-text {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 938px) {
+  .hero-image {
+    top: 15rem;
+    right: -2rem;
+    height: 450px;
+    left: 22rem;
+  }
+  .main-text {
+    font-size: 2rem;
+  }
+
+  .para-text {
+    font-size: 1.4rem;
+  }
+  .hero-content {
+    padding-left: 1rem;
+  }
+  li a {
+    padding: 0px 7px;
+  }
+}
+@media (max-width: 905px) {
+}
+@media (max-width: 897px) {
+  .fa-bars {
+    display: block;
+  }
+  .nav-links {
+    background-color: black;
+    position: absolute;
+    top: 6rem;
+    bottom: 0;
+    right: 6rem;
+    left: 15rem;
+    width: 400px;
+    transform: translateX(300px);
+    z-index: 1;
+  }
+
+  ul {
+    flex-direction: column;
+    padding: 60px;
+  }
+  li a {
+    color: white;
+    padding: 0px 1.4rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 710px) {
+  .hero-image {
+    left: 4rem;
+    top: 29rem;
+  }
+  .main-text {
+    font-size: 2rem;
+  }
+
+  .para-text {
+    font-size: 1.4rem;
+  }
+  .hero-content {
+    padding-left: 1rem;
+  }
+}
